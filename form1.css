@@ -1,0 +1,66 @@
+.purple{
+  width: 100%;
+  height: 1vh;
+  background-color: rgb(169, 126, 212);
+  box-shadow: 0px 50px 130px 320px rgb(169, 126, 209);
+}
+body{
+  background-color: pink;
+  }
+  form{
+   margin: 24px 520px;
+  }
+  fieldset{
+    height: 580px;
+    background-color: white;
+  }
+  fieldset h1{
+    margin-top: -14px ;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(199, 197, 197);
+  }
+   label{
+
+    font-size: 25px;
+   }
+   input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px 0px 4px 4px;
+    background-color: rgb(199, 197, 197);
+    border: 0px;
+    font-size: 20px;
+   }
+   .sub{
+    margin-top: 20px; 
+    margin-bottom: 60px;  
+    justify-content: center; 
+    text-align: center;
+    background-color: rgb(75, 75, 245);
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+    border-radius: 20px;
+   }
+textarea{
+  background-color: rgb(199, 197, 197);
+  border: 0px;
+  width: 100%;
+  font-size: 20px;
+}
+textarea::placeholder{
+  font-size: 20px;
+}
+input::placeholder{
+  font-size: 17px;
+}
+h1 b{
+  font-size: 14px;
+  line-height: 40px;
+}
